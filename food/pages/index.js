@@ -1,7 +1,8 @@
+//Templates
+import HomePage from "@/components/templates/HomePage";
+
 export default function Home() {
-  return (
-      <>
-        <h1 className="bg-red-300">shadi</h1>
-      </>
-  );
+    return (
+        <HomePage/>
+    )
 }
