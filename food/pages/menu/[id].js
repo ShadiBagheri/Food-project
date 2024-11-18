@@ -1,4 +1,6 @@
 import { useRouter} from "next/router";
+//Templates
+import DetailsPage from "@/components/templates/DetailsPage";
 
 const Details = ({ data }) => {
     const router = useRouter();
@@ -9,7 +11,7 @@ const Details = ({ data }) => {
 
     return (
         <>
-            <h1>Details Page</h1>
+            <DetailsPage {...data}/>
         </>
     )
 }

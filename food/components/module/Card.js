@@ -20,7 +20,7 @@ const Card = (props) => {
                         }
                         {discount ?
                             (<div className="mt-[-165px] ml-[10px] p-1 text-sm font-bold text-white bg-red-500 rounded-sm absolute">
-                                {discount} %
+                                {discount}% OFF
                             </div>) : null}
                     </div>
                     <div className="flex mt-[3px]">
